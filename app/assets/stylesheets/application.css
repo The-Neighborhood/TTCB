@@ -1,0 +1,112 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+html {
+  background: url(background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Verdana";
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 12px;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+br {
+  min-height: 25px;
+}
+
+input {
+  padding: 12px 20px;
+  margin: 12px 12px;
+  box-sizing: border-box;
+  width: 300px;
+  font-size: 14px;
+}
+
+.float_right {
+  float: right;
+}
+
+.monogram {
+  min-height: 200px;
+  min-width: 150px;
+  background: rgba(256,256,256,1);
+  border: 2px;
+  border-style: solid;
+  border-color: grey;
+  position: relative;
+}
+
+.monogram_input {
+  width: calc(100% - 24px);
+  position: absolute;
+  bottom: 0;
+}
+
+#header {
+  min-height: 100px;
+}
+
+#content {
+  width: 800px;
+  background: rgba(256,256,256,.8);
+  margin: auto;
+}
+
+#footer {
+  min-height: 100px;
+}
+
+#monogram_container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+#monogram_first_name_container {
+  width: 200px;
+  height: 160px;
+  margin-top: 20px;
+}
+
+#monogram_last_name_container{
+  width: 300px;
+  height: 250px;
+}
+
+#monogram_middle_name_container{
+  width: 200px;
+  height: 160px;
+  margin-top: 20px;
+}
